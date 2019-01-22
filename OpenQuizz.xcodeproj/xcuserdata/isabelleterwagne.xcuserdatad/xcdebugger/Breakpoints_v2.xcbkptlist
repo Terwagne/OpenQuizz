@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenQuizz/Controller/ViewController.swift"
+            timestampString = "569868034.938476"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenQuizz/Controller/ViewController.swift"
+            timestampString = "569868034.938657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.ViewController.activityIndicator.getter : weak Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isabelleterwagne/Desktop/OpenQuizz/OpenQuizz/Controller/ViewController.swift"
+                  timestampString = "569868194.478115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.ViewController.activityIndicator.setter : weak Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isabelleterwagne/Desktop/OpenQuizz/OpenQuizz/Controller/ViewController.swift"
+                  timestampString = "569868194.484301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; OpenQuizz.ViewController"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isabelleterwagne/Desktop/OpenQuizz/OpenQuizz/Controller/ViewController.swift"
+                  timestampString = "569868194.487114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "517">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;OpenQuizz.ViewController&gt;"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isabelleterwagne/Desktop/OpenQuizz/OpenQuizz/Controller/ViewController.swift"
+                  timestampString = "569868194.4907579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "489">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

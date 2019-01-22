@@ -12,6 +12,11 @@
 		CD74DF1021EF277A0059F053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74DF0E21EF277A0059F053 /* Main.storyboard */; };
 		CD74DF1221EF277D0059F053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD74DF1121EF277D0059F053 /* Assets.xcassets */; };
 		CD74DF1521EF277D0059F053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD74DF1321EF277D0059F053 /* LaunchScreen.storyboard */; };
+		CD74DF1D21EF2C210059F053 /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD74DF1C21EF2C210059F053 /* Balham.otf */; };
+		CD74DF2321EF7CF10059F053 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD74DF2221EF7CF10059F053 /* Question.swift */; };
+		CD74DF2521EF9A710059F053 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD74DF2421EF9A710059F053 /* Game.swift */; };
+		CD74DF2721EF9AF50059F053 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD74DF2621EF9AF50059F053 /* QuestionManager.swift */; };
+		CD911F1921F22D1D005EAB5E /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD911F1821F22D1D005EAB5E /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		CD74DF1121EF277D0059F053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD74DF1421EF277D0059F053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD74DF1621EF277D0059F053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD74DF1C21EF2C210059F053 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		CD74DF2221EF7CF10059F053 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CD74DF2421EF9A710059F053 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CD74DF2621EF9AF50059F053 /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		CD911F1821F22D1D005EAB5E /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		CD74DF0921EF277A0059F053 /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
-				CD74DF0A21EF277A0059F053 /* AppDelegate.swift */,
-				CD74DF0C21EF277A0059F053 /* ViewController.swift */,
-				CD74DF0E21EF277A0059F053 /* Main.storyboard */,
-				CD74DF1121EF277D0059F053 /* Assets.xcassets */,
-				CD74DF1321EF277D0059F053 /* LaunchScreen.storyboard */,
-				CD74DF1621EF277D0059F053 /* Info.plist */,
+				CD74DF1E21EF7A600059F053 /* Model */,
+				CD74DF2021EF7A910059F053 /* Controller */,
+				CD74DF1F21EF7A7A0059F053 /* View */,
+				CD74DF2121EF7B4F0059F053 /* Supporting Files */,
 			);
 			path = OpenQuizz;
+			sourceTree = "<group>";
+		};
+		CD74DF1E21EF7A600059F053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD74DF2221EF7CF10059F053 /* Question.swift */,
+				CD74DF2421EF9A710059F053 /* Game.swift */,
+				CD74DF2621EF9AF50059F053 /* QuestionManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD74DF1F21EF7A7A0059F053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD74DF0E21EF277A0059F053 /* Main.storyboard */,
+				CD911F1821F22D1D005EAB5E /* QuestionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD74DF2021EF7A910059F053 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD74DF0C21EF277A0059F053 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD74DF2121EF7B4F0059F053 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD74DF1621EF277D0059F053 /* Info.plist */,
+				CD74DF1321EF277D0059F053 /* LaunchScreen.storyboard */,
+				CD74DF1121EF277D0059F053 /* Assets.xcassets */,
+				CD74DF1C21EF2C210059F053 /* Balham.otf */,
+				CD74DF0A21EF277A0059F053 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +171,7 @@
 			files = (
 				CD74DF1521EF277D0059F053 /* LaunchScreen.storyboard in Resources */,
 				CD74DF1221EF277D0059F053 /* Assets.xcassets in Resources */,
+				CD74DF1D21EF2C210059F053 /* Balham.otf in Resources */,
 				CD74DF1021EF277A0059F053 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD74DF2321EF7CF10059F053 /* Question.swift in Sources */,
 				CD74DF0D21EF277A0059F053 /* ViewController.swift in Sources */,
 				CD74DF0B21EF277A0059F053 /* AppDelegate.swift in Sources */,
+				CD74DF2721EF9AF50059F053 /* QuestionManager.swift in Sources */,
+				CD911F1921F22D1D005EAB5E /* QuestionView.swift in Sources */,
+				CD74DF2521EF9A710059F053 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +334,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDAVVX8GL4;
-				INFOPLIST_FILE = OpenQuizz/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenQuizz/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.isabelle.Terwagne.OpenQuizz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +354,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDAVVX8GL4;
-				INFOPLIST_FILE = OpenQuizz/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenQuizz/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.isabelle.Terwagne.OpenQuizz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
